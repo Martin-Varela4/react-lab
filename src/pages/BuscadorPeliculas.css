@@ -1,0 +1,56 @@
+.h2-peli {
+  color: #ffffff;
+  margin: 0;
+}
+
+.buscador-container {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 16px;
+  width: 400px;
+  margin: 20px auto;
+  color: white;
+
+}
+
+.buscador-container h2 {
+  margin-bottom: 15px;
+}
+
+.buscador-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+
+}
+
+.Disponibles {
+  font-size: 0.8em;
+  color: #4caf50;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.SinRes {
+  font-size: 0.8em;
+  color: #f44336;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.lista-peliculas {
+  list-style: none;
+  padding: 0;
+
+}
+
+.lista-peliculas li {
+  background: #333;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+
+}

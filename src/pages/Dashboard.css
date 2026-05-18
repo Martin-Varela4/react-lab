@@ -1,0 +1,19 @@
+.dashboard {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  justify-content: center;
+  align-items: stretch;
+  padding: 40px;
+
+}
+
+.dashboard-title {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 42px;
+  font-weight: bold;
+
+}

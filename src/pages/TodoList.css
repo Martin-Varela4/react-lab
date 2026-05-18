@@ -1,0 +1,98 @@
+h2 {
+  margin: 0;
+}
+
+.completada {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.todoList-container {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 16px;
+  width: 400px;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.todoList-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.Tarea-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.Tarea-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.2s;
+}
+
+.Tarea-button:hover {
+  transform: scale(1.02);
+}
+
+.tarea-texto {
+  flex: 1;
+ word-break: break-word;
+}
+
+.lista-tareas {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+
+.tarea-item {
+  background: #2a2a2a;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+}
+
+
+.eliminar-button {
+  border: none;
+  background: crimson;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 5px;
+
+}
+
+
+.completar-button {
+  border: none;
+  background: #2196f3;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
