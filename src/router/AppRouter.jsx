@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Dashboard from "../pages/Dashboard";
 import BuscadorPeliculas from "../pages/BuscadorPeliculas";
+import BuscadorPokemon from  "../pages/BuscadorPokemon";
 
 function AppRouter() {
   return (
@@ -8,7 +9,7 @@ function AppRouter() {
       <Routes>
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/" element={<Dashboard />} />
-        {/* Se crearán futuras rutas según las actividades durante el desarrollo del año, y el /dashboard o /"" pase a ser un menú principal y no la primer actividad*/}
+        <Route path="/Pokemon"element={<BuscadorPokemon />} />
       </Routes>
     </BrowserRouter>
   );
